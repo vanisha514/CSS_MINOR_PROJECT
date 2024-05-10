@@ -1,0 +1,185 @@
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    box-sizing: border-box;
+    background-color: white;
+}
+
+@media(min-width: 990px){
+    .container{
+        display: flex;
+        width: 990px;
+        margin: 60px auto;
+        gap: 44px;
+    }
+    .feed{
+        width: 560px;
+        border: 1px solid lightgray;
+        border-radius: 14px;
+        padding: 10px;
+        margin-bottom: 30px;
+    }
+    .feed-img{
+        width: 100%;
+        border-radius: 14px;
+    }
+    
+    .profile{
+        display: flex;
+        margin-bottom: 24px;
+        gap: 10px;
+        align-items: center;
+    }
+    .avatar{
+        height: 50px;
+        border-radius: 50%;
+    }
+    .username{
+        font-size: 14px;
+        color: rgb(79, 79, 79);
+    }
+    .icons{
+        display: flex;
+        justify-content: space-between;
+    }
+    .icon-flex{
+        display: flex;
+        gap: 16px;
+    }
+    .icon{
+        font-size: 24px;
+    }
+    
+    
+    .story-container{
+        display: flex;
+        width: 990px;
+        margin: 80px auto;
+        gap: 12px;
+    }
+    .story{
+        text-align: center;
+    }
+    .story-img{
+        height: 86px;
+        border-radius: 50%;
+    }
+    .name{
+        font-size: 14px;
+    }
+    .nav{
+        width: 990px;
+        display: flex;
+        justify-content: space-between;
+        margin: 20px auto;
+        align-items: center;
+    }
+    .btn{
+        border: 1px solid lightgray;
+        padding: 16px 30px;
+        border-radius: 12px;
+        font-size: 16px;
+        background-color: #fff;
+    }
+    .logo{
+        height:34px;
+    }
+    .sidebar-title{
+        margin-top: 0;
+    }
+    .app{
+        display: flex;
+        gap: 10px;
+    }
+    .link{
+        height: 40px;
+    }
+    
+}
+
+@media(max-width: 989px){
+    .feed{
+        border: 1px solid lightgray;
+        border-radius: 14px;
+        padding: 10px;
+        margin-bottom: 30px;
+    }
+    .feed-img{
+        width: 100%;
+        border-radius: 14px;
+    }
+    
+    .profile{
+        display: flex;
+        margin-bottom: 24px;
+        gap: 10px;
+        align-items: center;
+    }
+    .avatar{
+        height: 50px;
+        border-radius: 50%;
+    }
+    .username{
+        font-size: 14px;
+        color: rgb(79, 79, 79);
+    }
+    .icons{
+        display: flex;
+        justify-content: space-between;
+    }
+    .icon-flex{
+        display: flex;
+        gap: 16px;
+    }
+    .icon{
+        font-size: 24px;
+    }
+    
+    .sidebar{
+        text-align: center;
+    }
+    .story-container{
+        display: flex;
+        width: 100%;
+        margin: 80px auto;
+        gap: 12px;
+        overflow: auto;
+    }
+    .story{
+        text-align: center;
+    }
+    .story-img{
+        height: 86px;
+        border-radius: 50%;
+    }
+    .name{
+        font-size: 14px;
+    }
+    .nav{
+        display: flex;
+        justify-content: space-between;
+        margin: 20px auto;
+        align-items: center;
+    }
+    .btn{
+        border: 1px solid lightgray;
+        padding: 12px 24px;
+        border-radius: 12px;
+        font-size: 16px;
+        background-color: #fff;
+    }
+    .logo{
+        height:30px;
+    }
+    .sidebar-title{
+        margin-top: 0;
+    }
+    .app{
+        display: flex;
+        gap: 10px;
+        justify-content: center;
+    }
+    .link{
+        height: 40px;
+    }
+    
+}
